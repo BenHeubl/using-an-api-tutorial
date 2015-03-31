@@ -63,7 +63,7 @@ Just to get you started, here is essentially all you need to get started with us
 
 Note that we included only the bare minimum, with the addition of jQuery - a very successful JS library.
 
-```
+```html
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -84,7 +84,7 @@ Note that we included only the bare minimum, with the addition of jQuery - a ver
 ```
 
 #### Making a request
-```
+```javascript
     $.getJSON( "ajax/test.json", function( data ) {
       var items = [];
       $.each( data, function( key, val ) {
