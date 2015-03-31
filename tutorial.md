@@ -74,6 +74,7 @@ Note that we included only the bare minimum, with the addition of jQuery - a ver
 
     <body>
       <h1>Hello!</h1>
+      <button>Get JSON data</button>
 
       <script>
         // some Javascript will go here
@@ -84,8 +85,29 @@ Note that we included only the bare minimum, with the addition of jQuery - a ver
 ```
 
 #### Making a request
+To cut to the chase: jQuery has a brilliant method for getting JSON back from an API without having to go through parsing it: `$.getJSON()`. It works this way:
+
 ```javascript
-    $.getJSON( "ajax/test.json", function( data ) {
+    // Your API key
+    var apikey = ;
+
+    // The query you want to run
+    var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&apikey=" + apikey;
+
+    $("button").click(function(){
+      $.getJSON(query, function(data){
+        console.log(data);
+      })
+    });
+```
+
+Now open `index.html` in your [favourite browser](https://www.mozilla.org/en-GB/firefox/new/) and open the *Developer Tools* (`Shift + Ctrl + K` on Firefox, `Shift + Ctrl + J` on Chrome).
+
+```javascript
+    var apikey = ;
+    var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&apikey=apikey";
+
+    $.getJSON( query, function( data ) {
       var items = [];
       $.each( data, function( key, val ) {
         items.push( "<li id='" + key + "'>" + val + "</li>" );
