@@ -103,19 +103,50 @@ To cut to the chase: jQuery has a brilliant method for getting JSON back from an
 
 Now open `index.html` in your [favourite browser](https://www.mozilla.org/en-GB/firefox/new/) and open the *Developer Tools* (`Shift + Ctrl + K` on Firefox, `Shift + Ctrl + J` on Chrome).
 
+Magic happened: you can now see the data!
+
+#### Using the request to build your webpage
+Good, good. Now we've got some JSON back directly in the browser. What do you say we take parts of this JSON and injects it directly into our webpage to create some content, eh?
+
+If you paid attention earlier, you know that we're querying to the Juicer a list of articles mentioning *"London"*. This JSON looks like this: 
+
+![json response](responseJSON.png)
+
+Now, some technicalities:
+
+* A JSON is made to be navigated in, hierarchically. In that case, we're going to want to target the `hits` group, and leave `aggregations` and `timeseries` alone. When we're into `hits`, we have a list (numbered from 0, as it is the norm in most programming languages. Into each element of this list, there's the information we will want to display: a *title*, a *url*, a *description*...
+* To access properties in the JSON, consider that the dot (`.`) expresses levels of hierarchy. Thus, considering that `data` is the variable representing your JSON, `data.subdata` is a sub-element of the JSON object. And `data.subdata.article` is a sub-element of `subdata`, which is itself a sub-element of the JSON object. Go deeper with dots.
+* In this particular case, if I want to access the `title` element, I would have to read (assuming that `data` represents the JSON object we queried) `data.hits.title`. Wait, no, that is not right: 
+* Because when you have a list, you need to say which element you want to read in the list (numbered from 0, remember). Thus, to read the first element (trust me on this one), you will want to read `data.hits[0].title`. Try to `console.log` this after your `getJSON`.
+* When you have several elements in a list, you can easily write loops to perform a single operation on each one, without having to write the instruction *x* times. That's one of the things that makes computers so good at repetitive tasks.
+
+Anyway, to the code:
+
 ```javascript
     var apikey = ;
     var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&apikey=apikey";
 
     $.getJSON( query, function( data ) {
       var items = [];
-      $.each( data, function( key, val ) {
-        items.push( "<li id='" + key + "'>" + val + "</li>" );
+      $.each( data.hits, function( key, val ) {
+        items.push( "<li>" + val.title + "</li>" );
       });
 
       $( "<ul/>", {
-        "class": "my-new-list",
         html: items.join( "" )
       }).appendTo( "body" );
     });
 ```
+
+Nothing changed from before at the top: we give it an API key, a query to perform with this API key, and we're using `getJSON()` to make the query. Now. Read carefully, we'll go through this step-by-step.
+
+* We create `items`, which is an empty list. We'll fill this with the content we want on the page. 
+* Then, with `$.each()`, we're writing this loop to peform an operation *on each element of `data.hits`*.
+* We are then *pushing* a piece of HTML to `items`, that we created earlier.
+* This piece of HTML contains a `<li>` element (a list item) which, look at this, has `val.title` for value.
+* `val.title`, I forgot to explain, represents `data.hits.title`, that's just a shortcut we declared.
+* Then, after the white line, we're grabbing the `<ul>` element in our HTML, 
+* And saying that its HTML should be what's contained in `items`.
+* Finally, we *append* these list elements to our HTML *body*.
+
+Are you still here? Good. Refresh the page. Magic happened.
