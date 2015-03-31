@@ -37,12 +37,63 @@ Now, it might seem all a bit silly and broad, but you can use these APIs for qui
 
 # Tools
 You don't need much to talk to an API. Although some tools are nicer than the others.
-To understand how a request works, we will use Google Chrome extension Postman, which is a pretty tool to make requests clear to humans. Go ahead and install it!
-Once we're familiar with the requests and their responses, ...
+To understand how a request works, we will use [Google Chrome extension Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en), which is a pretty tool to make requests clear to humans. Go ahead and install it!
 
 # Making requests
 There are important elements in the formulation of API queries that you will need to identify each time by reading the API documentation given by the provider. As a rule of thumb, you will need the url of the API server, a query, and an API key.
 Then you will need to build your query following the available options (refer to the documentation).
 
+### Example queries
+[insert stuff here]
+
 # Getting a response
 After you've sent your query, the server will reply in a certain format. One of the most common is JSON (which stands for *JavaScript Obect Notation*). This format is very standard and easy to parse in any language, and though it can be a bit bigger than flat CSV datasets, it is quite good at expressing relationships and hierarchy. JSON is also the format returned by the Juicer, and thus the one that we will use for this tutorial.
+
+# Exploiting the received data
+Okay, so now that we're comfortable with the Juicer API, it's time to actually put the data you've queries to good use. One of the most simple and frequent thinkg you'll do with data obtained is to throw some bits of it into a web-page. 
+
+This is surprisingly easy with some Javascript (actually, *jQuery*, but sssh, don't wake up the trolls). Here is what we will do:
+
+* Load all the five most recent news articles about *David Cameron*,
+* List on the webpage the headlines and descriptions of these articles, 
+* And make sure the user can click on the headline to go read the article.
+
+#### An HTML5 skeleton
+Just to get you started, here is essentially all you need to get started with using an API programmatically. Create a file called `index.html` and paste this bit of code into it. 
+
+Note that we included only the bare minimum, with the addition of jQuery - a very successful JS library.
+
+```
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>API with jQuery</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+
+    <body>
+      <h1>Hello!</h1>
+
+      <script>
+        // some Javascript will go here
+      </script>
+
+    </body>
+    </html>
+```
+
+#### Making a request
+```
+    $.getJSON( "ajax/test.json", function( data ) {
+      var items = [];
+      $.each( data, function( key, val ) {
+        items.push( "<li id='" + key + "'>" + val + "</li>" );
+      });
+
+      $( "<ul/>", {
+        "class": "my-new-list",
+        html: items.join( "" )
+      }).appendTo( "body" );
+    });
+```
