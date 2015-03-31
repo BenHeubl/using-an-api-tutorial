@@ -26,6 +26,8 @@ Second, the number of queries you can send to the servers are quite often limite
 # What you will find in the BBC API
 We call this API "the Juicer." It has been developed by BBC News Labs, and here is how it works:
 
+![juicer](juicer.png)
+
 * The Juicer scrapes news articles from the BBC and roughly 150 other news organisations, automatically. It ingests them in its database, identifying the title, the authors, the source, images, external links.
 * It then performs entity extraction: in the articles' bodies, it will recognises some concepts ("David Cameron", "smoking", "Leicester", "Apple Inc"...), which can be people, places, organisations, or intangibles.
 * It will match these concepts with a unified concepts base containing information about these concepts, this providing some consistency.
