@@ -129,26 +129,23 @@ Anyway, to the code:
     var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&apikey=apikey";
 
     $.getJSON( query, function( data ) {
-      var items = [];
-      $.each( data.hits, function( key, val ) {
+      var items = [];       // We create `items`, which is an empty list. We'll fill this with the content we want on the page.
+
+      // Then, with `$.each()`, we're writing this loop to peform an operation on each element of `data.hits`.
+      $.each( data.hits, function( key, val ) {     
+
+        // We are then *pushing* a piece of HTML to `items`, that we created earlier.
+        // This piece of HTML contains a `<li>` element (a list item) which, look at this, has `val.title` for value.
+        // `val.title`, I forgot to explain, represents `data.hits.title`, that's just a shortcut we declared.
         items.push( "<li>" + val.title + "</li>" );
       });
 
-      $( "<ul/>", {
-        html: items.join( "" )
-      }).appendTo( "body" );
+      $( "<ul/>", {                 // Then, after the white line, we're grabbing the `<ul>` element in our HTML,
+        html: items.join( "" )      // And saying that its HTML should be what's contained in `items`.
+      }).appendTo( "body" );        // Finally, we *append* these list elements to our HTML *body*.
     });
 ```
 
 Nothing changed from before at the top: we give it an API key, a query to perform with this API key, and we're using `getJSON()` to make the query. Now. Read carefully, we'll go through this step-by-step.
-
-* We create `items`, which is an empty list. We'll fill this with the content we want on the page. 
-* Then, with `$.each()`, we're writing this loop to peform an operation *on each element of `data.hits`*.
-* We are then *pushing* a piece of HTML to `items`, that we created earlier.
-* This piece of HTML contains a `<li>` element (a list item) which, look at this, has `val.title` for value.
-* `val.title`, I forgot to explain, represents `data.hits.title`, that's just a shortcut we declared.
-* Then, after the white line, we're grabbing the `<ul>` element in our HTML, 
-* And saying that its HTML should be what's contained in `items`.
-* Finally, we *append* these list elements to our HTML *body*.
 
 Are you still here? Good. Refresh the page. Magic happened.
