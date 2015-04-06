@@ -3,7 +3,6 @@ Today, we turn our focus towards APIs. Chances are you've already used some of t
 
 * ever clicked on a Twitter "Share this" button?
 * ever opened Facebook or Twitter?
-* **other examples**
 
 Well, you've used an API!
 
@@ -16,7 +15,7 @@ Interacting with an API can be done in a number of way. Some of them are transpa
 
 Some others are more artisanal, geekier, and require you to write the queries manually, filling out a bunch of fields. These can even be used programmatically, with a script written in your language of choice, or your beloved command line.
 
-For this tutorial, we are going to use the *BBC linked data API*. For a more clear definition of linked data, please refer [here](). But let's just say that linked data expresses relationships between concepts present in content. For example, a BBC article mentioning "David Cameron" will be considered by the machine as being *about* David Cameron, our Prime minister. You could then ask the service "show me all articles *about* David Cameron *and* Nigel Farage," for example.
+For this tutorial, we are going to use the *BBC linked data API*. But let's just say that linked data expresses relationships between concepts present in content. For example, a BBC article mentioning "David Cameron" will be considered by the machine as being *about* David Cameron, our Prime minister. You could then ask the service "show me all articles *about* David Cameron *and* Nigel Farage," for example.
 
 # API keys and rate limiting
 A quick word about security here: quite often, content providers restrict the use of their APIs. First, they'd rather only have approved developers using them, and not crackers, botnets, or spammers. On Twitter, you need an account associated with a phone number to obtain an API key, giving you access to some of their content. I say "some of it" because there is another (very exclusive) Twitter API, called *the firehose*, which gives you access to all the tweets posted, in real time.
@@ -36,10 +35,6 @@ We call this API "the Juicer." It has been developed by BBC News Labs, and here 
 Every step of the way can be interrogated by talking to the API directly. You might only be interested by reading articles about the geographic zone 15 miles around your current gps position, for example. Or you might just want to know what are the other politicians co-occurring with Nigel Farage in the last two months, and in which proportions. Or, you might be curious to know who is mentioned the most alongside Adolf Hitler in news articles.
 
 Now, it might seem all a bit silly and broad, but you can use these APIs for quite nice purposes. If you have downloaded the new BBC News smartphone app (available on Android and iOS), you probably noticed that you can *follow* topics, such as your constituency or geographical area, major news developments ( *Islamic State crisis*, *counter-terrorism*, *Jeremy Clarkson*, *Cymru*, *Election 2015*...). These pages are aggregated automatically by the APIs, served to you by them - with probably a certain dose of human curation that I must admit not knowing about.
-
-# Tools
-You don't need much to talk to an API. Although some tools are nicer than the others.
-To understand how a request works, we will use [Google Chrome extension Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en), which is a pretty tool to make requests clear to humans. Go ahead and install it!
 
 # Making requests
 There are important elements in the formulation of API queries that you will need to identify each time by reading the API documentation given by the provider. As a rule of thumb, you will need the url of the API server, a query, and an API key.
@@ -149,3 +144,25 @@ Anyway, to the code:
 Nothing changed from before at the top: we give it an API key, a query to perform with this API key, and we're using `getJSON()` to make the query. Now. Read carefully, we'll go through this step-by-step.
 
 Are you still here? Good. Refresh the page. Magic happened.
+
+# Beyond this tutorial
+You pretty much know the basics right now, so here are a couple of things you could do to learn a bit more.
+
+#### Getting to know Juicer better with Postman
+You don't need much to talk to an API. Although some tools are nicer than the others.
+Have a look at [Google Chrome extension Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en), which is a pretty tool to make requests clear to humans. Go ahead and install it!
+
+You can them import the Juicer API using [this URL](https://www.getpostman.com/collections/cebe998a209d9862135b). This allows you to easily try out the API and explore how it works without writing any code.
+
+You will need to configure an 'Environment' within Postman to be able to make cals:
+
+![environment](http://docs.bbcnewslabs.co.uk/img/juicer-postman.png)
+
+And you best ally is, as always, [the documentation](http://docs.bbcnewslabs.co.uk/Juicer-2.html)!
+
+### Want to code a bit more?
+Why not writing a [Google News](https://news.google.com/)-y kind of thing? If you've followed the tutorial, here's what you should do:
+
+* List the titles (as we did before)
+* Transform the list elements into links (`<a>` elements)
+* Change the source of the links to the corresponding URLs (tip: change `href`)
