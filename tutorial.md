@@ -98,6 +98,12 @@ Now open `index.html` in your [favourite browser](https://www.mozilla.org/en-GB/
 
 Magic happened: you can now see the data!
 
+> **Note:** If you don't have an API key for the BBC API, use [this cached version](https://rawgit.com/basilesimon/using-an-api-tutorial/master/cacheJSON.json) instead.
+>
+> So in the above example, you should use this line:
+> 
+> `var query = "https://rawgit.com/basilesimon/using-an-api-tutorial/master/cacheJSON.json";`
+
 #### Using the request to build your web page
 Good, good. Now we've got some JSON back directly in the browser. What do you say we take parts of this JSON and injects it directly into our web page to create some content, eh?
 
@@ -140,6 +146,11 @@ Anyway, to the code:
 Are you still here? Good. Refresh the page. Magic happened.
 
 Nothing changed from before at the top: we give it an API key, a query to perform with this API key, and we're using `getJSON()` to make the query.
+
+> **Note:** Reminder that if you don't have an API key for the BBC API, use [this cached version](https://rawgit.com/basilesimon/using-an-api-tutorial/master/cacheJSON.json) instead. Like so:
+>
+> `var query = "https://rawgit.com/basilesimon/using-an-api-tutorial/master/cacheJSON.json";`
+
 
 # Beyond this tutorial
 You pretty much know the basics right now, so here are a couple of things you could do to learn a bit more.
