@@ -1,1 +1,1733 @@
-{"timeseries":[{"key_as_string":"2014-10-07T00:00:00.000Z","key":1412640000000,"doc_count":159},{"key_as_string":"2014-10-08T00:00:00.000Z","key":1412726400000,"doc_count":236},{"key_as_string":"2014-10-09T00:00:00.000Z","key":1412812800000,"doc_count":257},{"key_as_string":"2014-10-10T00:00:00.000Z","key":1412899200000,"doc_count":225},{"key_as_string":"2014-10-11T00:00:00.000Z","key":1412985600000,"doc_count":134},{"key_as_string":"2014-10-12T00:00:00.000Z","key":1413072000000,"doc_count":126},{"key_as_string":"2014-10-13T00:00:00.000Z","key":1413158400000,"doc_count":233},{"key_as_string":"2014-10-14T00:00:00.000Z","key":1413244800000,"doc_count":255},{"key_as_string":"2014-10-15T00:00:00.000Z","key":1413331200000,"doc_count":226},{"key_as_string":"2014-10-16T00:00:00.000Z","key":1413417600000,"doc_count":248},{"key_as_string":"2014-10-17T00:00:00.000Z","key":1413504000000,"doc_count":239},{"key_as_string":"2014-10-18T00:00:00.000Z","key":1413590400000,"doc_count":132},{"key_as_string":"2014-10-19T00:00:00.000Z","key":1413676800000,"doc_count":132},{"key_as_string":"2014-10-20T00:00:00.000Z","key":1413763200000,"doc_count":232},{"key_as_string":"2014-10-21T00:00:00.000Z","key":1413849600000,"doc_count":234},{"key_as_string":"2014-10-22T00:00:00.000Z","key":1413936000000,"doc_count":224},{"key_as_string":"2014-10-23T00:00:00.000Z","key":1414022400000,"doc_count":263},{"key_as_string":"2014-10-24T00:00:00.000Z","key":1414108800000,"doc_count":231},{"key_as_string":"2014-10-25T00:00:00.000Z","key":1414195200000,"doc_count":117},{"key_as_string":"2014-10-26T00:00:00.000Z","key":1414281600000,"doc_count":107},{"key_as_string":"2014-10-27T00:00:00.000Z","key":1414368000000,"doc_count":194},{"key_as_string":"2014-10-28T00:00:00.000Z","key":1414454400000,"doc_count":213},{"key_as_string":"2014-10-29T00:00:00.000Z","key":1414540800000,"doc_count":241},{"key_as_string":"2014-10-30T00:00:00.000Z","key":1414627200000,"doc_count":195},{"key_as_string":"2014-10-31T00:00:00.000Z","key":1414713600000,"doc_count":219},{"key_as_string":"2014-11-01T00:00:00.000Z","key":1414800000000,"doc_count":105},{"key_as_string":"2014-11-02T00:00:00.000Z","key":1414886400000,"doc_count":123},{"key_as_string":"2014-11-03T00:00:00.000Z","key":1414972800000,"doc_count":227},{"key_as_string":"2014-11-04T00:00:00.000Z","key":1415059200000,"doc_count":213},{"key_as_string":"2014-11-05T00:00:00.000Z","key":1415145600000,"doc_count":223},{"key_as_string":"2014-11-06T00:00:00.000Z","key":1415232000000,"doc_count":212},{"key_as_string":"2014-11-07T00:00:00.000Z","key":1415318400000,"doc_count":265},{"key_as_string":"2014-11-08T00:00:00.000Z","key":1415404800000,"doc_count":111},{"key_as_string":"2014-11-09T00:00:00.000Z","key":1415491200000,"doc_count":157},{"key_as_string":"2014-11-10T00:00:00.000Z","key":1415577600000,"doc_count":283},{"key_as_string":"2014-11-11T00:00:00.000Z","key":1415664000000,"doc_count":255},{"key_as_string":"2014-11-12T00:00:00.000Z","key":1415750400000,"doc_count":220},{"key_as_string":"2014-11-13T00:00:00.000Z","key":1415836800000,"doc_count":247},{"key_as_string":"2014-11-14T00:00:00.000Z","key":1415923200000,"doc_count":248},{"key_as_string":"2014-11-15T00:00:00.000Z","key":1416009600000,"doc_count":106},{"key_as_string":"2014-11-16T00:00:00.000Z","key":1416096000000,"doc_count":115},{"key_as_string":"2014-11-17T00:00:00.000Z","key":1416182400000,"doc_count":238},{"key_as_string":"2014-11-18T00:00:00.000Z","key":1416268800000,"doc_count":264},{"key_as_string":"2014-11-19T00:00:00.000Z","key":1416355200000,"doc_count":259},{"key_as_string":"2014-11-20T00:00:00.000Z","key":1416441600000,"doc_count":243},{"key_as_string":"2014-11-21T00:00:00.000Z","key":1416528000000,"doc_count":292},{"key_as_string":"2014-11-22T00:00:00.000Z","key":1416614400000,"doc_count":121},{"key_as_string":"2014-11-23T00:00:00.000Z","key":1416700800000,"doc_count":136},{"key_as_string":"2014-11-24T00:00:00.000Z","key":1416787200000,"doc_count":239},{"key_as_string":"2014-11-25T00:00:00.000Z","key":1416873600000,"doc_count":271},{"key_as_string":"2014-11-26T00:00:00.000Z","key":1416960000000,"doc_count":232},{"key_as_string":"2014-11-27T00:00:00.000Z","key":1417046400000,"doc_count":252},{"key_as_string":"2014-11-28T00:00:00.000Z","key":1417132800000,"doc_count":244},{"key_as_string":"2014-11-29T00:00:00.000Z","key":1417219200000,"doc_count":163},{"key_as_string":"2014-11-30T00:00:00.000Z","key":1417305600000,"doc_count":131},{"key_as_string":"2014-12-01T00:00:00.000Z","key":1417392000000,"doc_count":241},{"key_as_string":"2014-12-02T00:00:00.000Z","key":1417478400000,"doc_count":249},{"key_as_string":"2014-12-03T00:00:00.000Z","key":1417564800000,"doc_count":262},{"key_as_string":"2014-12-04T00:00:00.000Z","key":1417651200000,"doc_count":249},{"key_as_string":"2014-12-05T00:00:00.000Z","key":1417737600000,"doc_count":252},{"key_as_string":"2014-12-06T00:00:00.000Z","key":1417824000000,"doc_count":99},{"key_as_string":"2014-12-07T00:00:00.000Z","key":1417910400000,"doc_count":136},{"key_as_string":"2014-12-08T00:00:00.000Z","key":1417996800000,"doc_count":223},{"key_as_string":"2014-12-09T00:00:00.000Z","key":1418083200000,"doc_count":208},{"key_as_string":"2014-12-10T00:00:00.000Z","key":1418169600000,"doc_count":228},{"key_as_string":"2014-12-11T00:00:00.000Z","key":1418256000000,"doc_count":226},{"key_as_string":"2014-12-12T00:00:00.000Z","key":1418342400000,"doc_count":234},{"key_as_string":"2014-12-13T00:00:00.000Z","key":1418428800000,"doc_count":116},{"key_as_string":"2014-12-14T00:00:00.000Z","key":1418515200000,"doc_count":146},{"key_as_string":"2014-12-15T00:00:00.000Z","key":1418601600000,"doc_count":257},{"key_as_string":"2014-12-16T00:00:00.000Z","key":1418688000000,"doc_count":235},{"key_as_string":"2014-12-17T00:00:00.000Z","key":1418774400000,"doc_count":231},{"key_as_string":"2014-12-18T00:00:00.000Z","key":1418860800000,"doc_count":196},{"key_as_string":"2014-12-19T00:00:00.000Z","key":1418947200000,"doc_count":224},{"key_as_string":"2014-12-20T00:00:00.000Z","key":1419033600000,"doc_count":114},{"key_as_string":"2014-12-21T00:00:00.000Z","key":1419120000000,"doc_count":126},{"key_as_string":"2014-12-22T00:00:00.000Z","key":1419206400000,"doc_count":177},{"key_as_string":"2014-12-23T00:00:00.000Z","key":1419292800000,"doc_count":155},{"key_as_string":"2014-12-24T00:00:00.000Z","key":1419379200000,"doc_count":100},{"key_as_string":"2014-12-25T00:00:00.000Z","key":1419465600000,"doc_count":82},{"key_as_string":"2014-12-26T00:00:00.000Z","key":1419552000000,"doc_count":94},{"key_as_string":"2014-12-27T00:00:00.000Z","key":1419638400000,"doc_count":118},{"key_as_string":"2014-12-28T00:00:00.000Z","key":1419724800000,"doc_count":118},{"key_as_string":"2014-12-29T00:00:00.000Z","key":1419811200000,"doc_count":156},{"key_as_string":"2014-12-30T00:00:00.000Z","key":1419897600000,"doc_count":271},{"key_as_string":"2014-12-31T00:00:00.000Z","key":1419984000000,"doc_count":187},{"key_as_string":"2015-01-01T00:00:00.000Z","key":1420070400000,"doc_count":153},{"key_as_string":"2015-01-02T00:00:00.000Z","key":1420156800000,"doc_count":187},{"key_as_string":"2015-01-03T00:00:00.000Z","key":1420243200000,"doc_count":158},{"key_as_string":"2015-01-04T00:00:00.000Z","key":1420329600000,"doc_count":136},{"key_as_string":"2015-01-05T00:00:00.000Z","key":1420416000000,"doc_count":222},{"key_as_string":"2015-01-06T00:00:00.000Z","key":1420502400000,"doc_count":240},{"key_as_string":"2015-01-07T00:00:00.000Z","key":1420588800000,"doc_count":225},{"key_as_string":"2015-01-08T00:00:00.000Z","key":1420675200000,"doc_count":222},{"key_as_string":"2015-01-09T00:00:00.000Z","key":1420761600000,"doc_count":209},{"key_as_string":"2015-01-10T00:00:00.000Z","key":1420848000000,"doc_count":130},{"key_as_string":"2015-01-11T00:00:00.000Z","key":1420934400000,"doc_count":127},{"key_as_string":"2015-01-12T00:00:00.000Z","key":1421020800000,"doc_count":245},{"key_as_string":"2015-01-13T00:00:00.000Z","key":1421107200000,"doc_count":229},{"key_as_string":"2015-01-14T00:00:00.000Z","key":1421193600000,"doc_count":251},{"key_as_string":"2015-01-15T00:00:00.000Z","key":1421280000000,"doc_count":255},{"key_as_string":"2015-01-16T00:00:00.000Z","key":1421366400000,"doc_count":277},{"key_as_string":"2015-01-17T00:00:00.000Z","key":1421452800000,"doc_count":134},{"key_as_string":"2015-01-18T00:00:00.000Z","key":1421539200000,"doc_count":129},{"key_as_string":"2015-01-19T00:00:00.000Z","key":1421625600000,"doc_count":260},{"key_as_string":"2015-01-20T00:00:00.000Z","key":1421712000000,"doc_count":257},{"key_as_string":"2015-01-21T00:00:00.000Z","key":1421798400000,"doc_count":233},{"key_as_string":"2015-01-22T00:00:00.000Z","key":1421884800000,"doc_count":272},{"key_as_string":"2015-01-23T00:00:00.000Z","key":1421971200000,"doc_count":278},{"key_as_string":"2015-01-24T00:00:00.000Z","key":1422057600000,"doc_count":120},{"key_as_string":"2015-01-25T00:00:00.000Z","key":1422144000000,"doc_count":101},{"key_as_string":"2015-01-26T00:00:00.000Z","key":1422230400000,"doc_count":142},{"key_as_string":"2015-01-27T00:00:00.000Z","key":1422316800000,"doc_count":226},{"key_as_string":"2015-01-28T00:00:00.000Z","key":1422403200000,"doc_count":213},{"key_as_string":"2015-01-29T00:00:00.000Z","key":1422489600000,"doc_count":198},{"key_as_string":"2015-01-30T00:00:00.000Z","key":1422576000000,"doc_count":227},{"key_as_string":"2015-01-31T00:00:00.000Z","key":1422662400000,"doc_count":117},{"key_as_string":"2015-02-01T00:00:00.000Z","key":1422748800000,"doc_count":20},{"key_as_string":"2015-02-02T00:00:00.000Z","key":1422835200000,"doc_count":223},{"key_as_string":"2015-02-03T00:00:00.000Z","key":1422921600000,"doc_count":228},{"key_as_string":"2015-02-04T00:00:00.000Z","key":1423008000000,"doc_count":225},{"key_as_string":"2015-02-05T00:00:00.000Z","key":1423094400000,"doc_count":294},{"key_as_string":"2015-02-06T00:00:00.000Z","key":1423180800000,"doc_count":475},{"key_as_string":"2015-02-07T00:00:00.000Z","key":1423267200000,"doc_count":275},{"key_as_string":"2015-02-08T00:00:00.000Z","key":1423353600000,"doc_count":338},{"key_as_string":"2015-02-09T00:00:00.000Z","key":1423440000000,"doc_count":500},{"key_as_string":"2015-02-10T00:00:00.000Z","key":1423526400000,"doc_count":510},{"key_as_string":"2015-02-11T00:00:00.000Z","key":1423612800000,"doc_count":481},{"key_as_string":"2015-02-12T00:00:00.000Z","key":1423699200000,"doc_count":578},{"key_as_string":"2015-02-13T00:00:00.000Z","key":1423785600000,"doc_count":457},{"key_as_string":"2015-02-14T00:00:00.000Z","key":1423872000000,"doc_count":268},{"key_as_string":"2015-02-15T00:00:00.000Z","key":1423958400000,"doc_count":314},{"key_as_string":"2015-02-16T00:00:00.000Z","key":1424044800000,"doc_count":489},{"key_as_string":"2015-02-17T00:00:00.000Z","key":1424131200000,"doc_count":457},{"key_as_string":"2015-02-18T00:00:00.000Z","key":1424217600000,"doc_count":388},{"key_as_string":"2015-02-19T00:00:00.000Z","key":1424304000000,"doc_count":591},{"key_as_string":"2015-02-20T00:00:00.000Z","key":1424390400000,"doc_count":544},{"key_as_string":"2015-02-21T00:00:00.000Z","key":1424476800000,"doc_count":404},{"key_as_string":"2015-02-22T00:00:00.000Z","key":1424563200000,"doc_count":383},{"key_as_string":"2015-02-23T00:00:00.000Z","key":1424649600000,"doc_count":511},{"key_as_string":"2015-02-24T00:00:00.000Z","key":1424736000000,"doc_count":571},{"key_as_string":"2015-02-25T00:00:00.000Z","key":1424822400000,"doc_count":527},{"key_as_string":"2015-02-26T00:00:00.000Z","key":1424908800000,"doc_count":692},{"key_as_string":"2015-02-27T00:00:00.000Z","key":1424995200000,"doc_count":601},{"key_as_string":"2015-02-28T00:00:00.000Z","key":1425081600000,"doc_count":401},{"key_as_string":"2015-03-01T00:00:00.000Z","key":1425168000000,"doc_count":328},{"key_as_string":"2015-03-02T00:00:00.000Z","key":1425254400000,"doc_count":648},{"key_as_string":"2015-03-03T00:00:00.000Z","key":1425340800000,"doc_count":625},{"key_as_string":"2015-03-04T00:00:00.000Z","key":1425427200000,"doc_count":666},{"key_as_string":"2015-03-05T00:00:00.000Z","key":1425513600000,"doc_count":517},{"key_as_string":"2015-03-06T00:00:00.000Z","key":1425600000000,"doc_count":557},{"key_as_string":"2015-03-07T00:00:00.000Z","key":1425686400000,"doc_count":345},{"key_as_string":"2015-03-08T00:00:00.000Z","key":1425772800000,"doc_count":321},{"key_as_string":"2015-03-09T00:00:00.000Z","key":1425859200000,"doc_count":486},{"key_as_string":"2015-03-10T00:00:00.000Z","key":1425945600000,"doc_count":535},{"key_as_string":"2015-03-11T00:00:00.000Z","key":1426032000000,"doc_count":626},{"key_as_string":"2015-03-12T00:00:00.000Z","key":1426118400000,"doc_count":665},{"key_as_string":"2015-03-13T00:00:00.000Z","key":1426204800000,"doc_count":619},{"key_as_string":"2015-03-14T00:00:00.000Z","key":1426291200000,"doc_count":316},{"key_as_string":"2015-03-15T00:00:00.000Z","key":1426377600000,"doc_count":317},{"key_as_string":"2015-03-16T00:00:00.000Z","key":1426464000000,"doc_count":557},{"key_as_string":"2015-03-17T00:00:00.000Z","key":1426550400000,"doc_count":634},{"key_as_string":"2015-03-18T00:00:00.000Z","key":1426636800000,"doc_count":566},{"key_as_string":"2015-03-19T00:00:00.000Z","key":1426723200000,"doc_count":615},{"key_as_string":"2015-03-20T00:00:00.000Z","key":1426809600000,"doc_count":654},{"key_as_string":"2015-03-21T00:00:00.000Z","key":1426896000000,"doc_count":349},{"key_as_string":"2015-03-22T00:00:00.000Z","key":1426982400000,"doc_count":326},{"key_as_string":"2015-03-23T00:00:00.000Z","key":1427068800000,"doc_count":628},{"key_as_string":"2015-03-24T00:00:00.000Z","key":1427155200000,"doc_count":617},{"key_as_string":"2015-03-25T00:00:00.000Z","key":1427241600000,"doc_count":632},{"key_as_string":"2015-03-26T00:00:00.000Z","key":1427328000000,"doc_count":683},{"key_as_string":"2015-03-27T00:00:00.000Z","key":1427414400000,"doc_count":653},{"key_as_string":"2015-03-28T00:00:00.000Z","key":1427500800000,"doc_count":327},{"key_as_string":"2015-03-29T00:00:00.000Z","key":1427587200000,"doc_count":407},{"key_as_string":"2015-03-30T00:00:00.000Z","key":1427673600000,"doc_count":679},{"key_as_string":"2015-03-31T00:00:00.000Z","key":1427760000000,"doc_count":712},{"key_as_string":"2015-04-01T00:00:00.000Z","key":1427846400000,"doc_count":683},{"key_as_string":"2015-04-02T00:00:00.000Z","key":1427932800000,"doc_count":667},{"key_as_string":"2015-04-03T00:00:00.000Z","key":1428019200000,"doc_count":527},{"key_as_string":"2015-04-04T00:00:00.000Z","key":1428105600000,"doc_count":458},{"key_as_string":"2015-04-05T00:00:00.000Z","key":1428192000000,"doc_count":409},{"key_as_string":"2015-04-06T00:00:00.000Z","key":1428278400000,"doc_count":418},{"key_as_string":"2015-04-07T00:00:00.000Z","key":1428364800000,"doc_count":195}],"aggregations":{"id":"results","count":941308,"items":[{"id":"http://dbpedia.org/ontology/Place","count":292500,"items":[{"id":"http://dbpedia.org/resource/London","count":27519},{"id":"http://dbpedia.org/resource/British_Empire","count":6059},{"id":"http://dbpedia.org/resource/Great_Britain","count":4895},{"id":"http://dbpedia.org/resource/England","count":4441},{"id":"http://dbpedia.org/resource/Scotland","count":3865},{"id":"http://dbpedia.org/resource/United_Kingdom","count":3831},{"id":"http://dbpedia.org/resource/Europe","count":3537},{"id":"http://dbpedia.org/resource/Home_(nightclub)","count":3513},{"id":"http://dbpedia.org/resource/Australia","count":2936},{"id":"http://dbpedia.org/resource/France","count":2039},{"id":"http://dbpedia.org/resource/Manchester","count":1993},{"id":"http://dbpedia.org/resource/North_London","count":1944},{"id":"http://dbpedia.org/resource/Birmingham","count":1918},{"id":"http://dbpedia.org/resource/Paris","count":1906},{"id":"http://dbpedia.org/resource/Syria","count":1906},{"id":"http://dbpedia.org/resource/Christmas_Island","count":1683},{"id":"http://dbpedia.org/resource/New_Orleans_Lakefront_Airport","count":1532},{"id":"http://dbpedia.org/resource/United_States","count":1472},{"id":"http://dbpedia.org/resource/London_Heathrow_Airport","count":1312},{"id":"http://dbpedia.org/resource/Edinburgh","count":1307}]},{"id":"http://dbpedia.org/ontology/Person","count":240923,"items":[{"id":"http://dbpedia.org/resource/David_Cameron","count":2927},{"id":"http://dbpedia.org/resource/John_Pringle","count":1626},{"id":"http://dbpedia.org/resource/Ed_Miliband","count":1584},{"id":"http://dbpedia.org/resource/Doctor_Willard_Bliss","count":1454},{"id":"http://dbpedia.org/resource/Boris_Johnson","count":998},{"id":"http://dbpedia.org/resource/Muhammad","count":929},{"id":"http://dbpedia.org/resource/Nigel_Farage","count":752},{"id":"http://dbpedia.org/resource/Nick_Clegg","count":733},{"id":"http://dbpedia.org/resource/Jos%C3%A9_Mourinho","count":694},{"id":"http://dbpedia.org/resource/Stephen_Campbell_Moore","count":669},{"id":"http://dbpedia.org/resource/Barack_Obama","count":660},{"id":"http://dbpedia.org/resource/Ars%C3%A8ne_Wenger","count":627},{"id":"http://dbpedia.org/resource/Thing_(The_Addams_Family)","count":610},{"id":"http://dbpedia.org/resource/Tony_Blair","count":563},{"id":"http://dbpedia.org/resource/Shepherd_Book","count":540},{"id":"http://dbpedia.org/resource/Maria_Theresa","count":534},{"id":"http://dbpedia.org/resource/Nicola_Sturgeon","count":506},{"id":"http://dbpedia.org/resource/Vladimir_Putin","count":505},{"id":"http://dbpedia.org/resource/Louis_van_Gaal","count":494},{"id":"http://dbpedia.org/resource/Mr._Big_(Sex_and_the_City)","count":493}]},{"id":"http://dbpedia.org/resource/Thing","count":215560,"items":[{"id":"http://dbpedia.org/resource/Human_back","count":1634},{"id":"http://dbpedia.org/resource/Hand","count":766},{"id":"http://dbpedia.org/resource/Man","count":749},{"id":"http://dbpedia.org/resource/Death","count":659},{"id":"http://dbpedia.org/resource/French_people","count":509},{"id":"http://dbpedia.org/resource/Police","count":454},{"id":"http://dbpedia.org/resource/Week","count":440},{"id":"http://dbpedia.org/resource/The_Man","count":410},{"id":"http://dbpedia.org/resource/Court","count":406},{"id":"http://dbpedia.org/resource/Family_(U.S._Census)","count":397},{"id":"http://dbpedia.org/resource/Allegation","count":394},{"id":"http://dbpedia.org/resource/Spokesperson","count":385},{"id":"http://dbpedia.org/resource/Maker_culture","count":368},{"id":"http://dbpedia.org/resource/Development_plan","count":364},{"id":"http://dbpedia.org/resource/Greatness","count":348},{"id":"http://dbpedia.org/resource/Business","count":343},{"id":"http://dbpedia.org/resource/Adverse_effect","count":340},{"id":"http://dbpedia.org/resource/Month","count":329},{"id":"http://dbpedia.org/resource/English_language","count":328},{"id":"http://dbpedia.org/resource/Use_(law)","count":309}]},{"id":"http://dbpedia.org/ontology/Organisation","count":192325,"items":[{"id":"http://dbpedia.org/resource/Twitter","count":5601},{"id":"http://dbpedia.org/resource/BBC","count":3527},{"id":"http://dbpedia.org/resource/Premier_League","count":3110},{"id":"http://dbpedia.org/resource/Sheffield_Wednesday_F.C.","count":2441},{"id":"http://dbpedia.org/resource/Conservative_Party_(UK)","count":2066},{"id":"http://dbpedia.org/resource/Aware_(voluntary_organisation)","count":2009},{"id":"http://dbpedia.org/resource/Chelsea_F.C.","count":1910},{"id":"http://dbpedia.org/resource/Manchester_United_F.C.","count":1675},{"id":"http://dbpedia.org/resource/Passenger_(British_band)","count":1606},{"id":"http://dbpedia.org/resource/UK_Independence_Party","count":1516},{"id":"http://dbpedia.org/resource/Tottenham_Hotspur_F.C.","count":1504},{"id":"http://dbpedia.org/resource/Liberal_Democrats","count":1491},{"id":"http://dbpedia.org/resource/Relapse_Records","count":1315},{"id":"http://dbpedia.org/resource/Manchester_City_F.C.","count":1252},{"id":"http://dbpedia.org/resource/Scottish_National_Party","count":1216},{"id":"http://dbpedia.org/resource/Rakuten.com","count":1151},{"id":"http://dbpedia.org/resource/Liverpool_F.C.","count":1020},{"id":"http://dbpedia.org/resource/Flights","count":967},{"id":"http://dbpedia.org/resource/Labour_Party_(UK)","count":924},{"id":"http://dbpedia.org/resource/ITV_(TV_network)","count":918}]}]},"total":54862,"hits":[{"description":"Architect Jim Heverin describes the London Aquatics Centre.","images":[],"videos":[],"source":{"source-uuid":"4b9b4468-1395-4a38-b580-82618d0cc90b","source-id":1,"source-name":"BBC News"},"title":"VIDEO: Stirling Prize 2014: London Aquatics Centre","concepts":[{"count":1,"surface_form":"London, Tilbury and Southend Railway","uri":"http://dbpedia.org/resource/London,_Tilbury_and_Southend_Railway","label":"London, Tilbury and Southend Railway","score":0.43,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"London Aquatics Centre","uri":"http://dbpedia.org/resource/London_Aquatics_Centre","label":"London Aquatics Centre","score":0.58,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"dfb3a2d8cc4188fd222ebd76d455141f5b00ed2d","url":"http://www.bbc.co.uk/news/magazine-29521683","image":null,"body":"For a better experience on your device, try our mobile site.","feed-id":3,"published":"2014-10-09T18:21:40.000Z"},{"description":"See how the London Aquatics Centre changed after the London 2012 Olympic Games.","images":[],"videos":[],"source":{"source-uuid":"4b9b4468-1395-4a38-b580-82618d0cc90b","source-id":1,"source-name":"BBC News"},"title":"VIDEO: Stirling Prize 2014: London Aquatics Centre","concepts":[{"count":1,"surface_form":"London Legacy Development Corporation","uri":"http://dbpedia.org/resource/London_Legacy_Development_Corporation","label":"London Legacy Development Corporation","score":0.58,"types":[],"generic-type":"http://dbpedia.org/ontology/Organisation"},{"count":1,"surface_form":"London, Tilbury and Southend Railway","uri":"http://dbpedia.org/resource/London,_Tilbury_and_Southend_Railway","label":"London, Tilbury and Southend Railway","score":0.44,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"Stirling","uri":"http://dbpedia.org/resource/Stirling","label":"Stirling","score":0.55,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"London Aquatics Centre","uri":"http://dbpedia.org/resource/London_Aquatics_Centre","label":"London Aquatics Centre","score":0.59,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"Sheryl Crow","uri":"http://dbpedia.org/resource/Sheryl_Crow","label":"Sheryl Crow","score":0.42,"types":[],"generic-type":"http://dbpedia.org/ontology/Person"}],"id":"664997c0573c6c5874cd1905668490e4c33217a5","url":"http://www.bbc.co.uk/news/magazine-29521684","image":null,"body":"The London Aquatics Centre has been shortlisted for Riba's prestigious Stirling Prize.\n\nSee how the building has changed since the London 2012 Olympic Games.\n\nImages by Hufton and Crow Photography and LLDC Images","feed-id":3,"published":"2014-10-09T18:30:26.000Z"},{"description":"Four men from London have been charged with intending to commit acts of terrorism, Scotland Yard has said.","images":[],"videos":[],"source":{"source-uuid":"2dec7d16-385c-40b9-8d3f-bfb32a9181fd","source-id":3,"source-name":"Sky News"},"title":"Four London Men Charged Over Terror Offences","concepts":[{"count":1,"surface_form":"Men, Women & Children","uri":"http://dbpedia.org/resource/Men,_Women_&_Children","label":"Men, Women & Children","score":0.43,"types":[],"generic-type":"http://dbpedia.org/ontology/Organisation"},{"count":1,"surface_form":"London","uri":"http://dbpedia.org/resource/London","label":"London","score":0.51,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"a5976d1ada58de8828ab74771d532523e55a2a18","url":"http://news.sky.com/story/1355113/london-terror-suspects-swore-allegiance-to-is","image":null,"body":"Four men from London have been charged with intending to commit acts of terrorism, Scotland Yard has said.\n\nThe men, who allegedly swore an allegiance to extremist group Islamic State, have been charged with plotting a terrorist attack in London.","feed-id":7,"published":"2014-10-17T12:38:42.000Z"},{"description":"","source":{"source-uuid":"0366090f-52cc-4644-b012-45d19301b40e","source-id":12,"source-name":"The Mirror"},"title":"","concepts":[],"id":"a1a9079cf42d72578df40738ce02722ecdda5a5a","url":"http://www.mirror.co.uk/lifestyle/motoring/london-bike-show-another-record-5236019","image":"","body":"","authors":[],"feed-id":16,"published":"2015-02-26T14:30:23Z"},{"description":"","source":{"source-uuid":"f5ab1c67-749e-4681-86a6-75266d8fd118","source-id":135,"source-name":"This Day Live"},"title":"","concepts":[],"id":"8f367e3a1bdd9915df89dc2f30f65ac78c60e91c","url":"http://www.thisdaylive.com/articles/buhari-back-from-london/203441/","image":"","body":"","authors":[],"feed-id":185,"published":"2015-03-06T06:57:18Z"},{"description":"Watch the London Aquatics Centre roof being built.","images":[],"videos":[],"source":{"source-uuid":"4b9b4468-1395-4a38-b580-82618d0cc90b","source-id":1,"source-name":"BBC News"},"title":"VIDEO: Stirling Prize 2014: London Aquatics Centre","concepts":[{"count":1,"surface_form":"London Aquatics Centre","uri":"http://dbpedia.org/resource/London_Aquatics_Centre","label":"London Aquatics Centre","score":0.58,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"63b5b27579a80edf5db46a4344272101fd99c0a6","url":"http://www.bbc.co.uk/news/magazine-29521685","image":null,"body":"For a better experience on your device, try our mobile site.","feed-id":3,"published":"2014-10-09T18:32:24.000Z"},{"description":"A woman has died in London after a tree felled by the storms caused a wall to collapse.","images":[],"videos":[],"source":{"source-uuid":"4b9b4468-1395-4a38-b580-82618d0cc90b","source-id":1,"source-name":"BBC News"},"title":"VIDEO: Woman dies in UK storm","concepts":[{"count":1,"surface_form":"London","uri":"http://dbpedia.org/resource/London","label":"London","score":0.5,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"eb2b9886b8eaf3d61bf0e3fe65c1f6b14d7471a9","url":"http://www.bbc.co.uk/news/uk-29711986","image":null,"body":"A woman has died in London after a tree felled by the storms caused a wall to collapse.\n\nThe tail end of Hurricane Gonzalo has caused disruption across the UK.","feed-id":3,"published":"2014-10-21T16:18:44.000Z"},{"description":"Photographs from the Guardian Eyewitness series  Continue reading...","images":[],"videos":[],"source":{"source-uuid":"f78a126c-697b-4f94-b027-eac71b072edb","source-id":8,"source-name":"The Guardian"},"title":"Eyewitness: London","concepts":[{"count":1,"surface_form":"The Weather Channel","uri":"http://dbpedia.org/resource/The_Weather_Channel","label":"The Weather Channel","score":0.48,"types":[],"generic-type":"http://dbpedia.org/ontology/Organisation"},{"count":1,"surface_form":"London","uri":"http://dbpedia.org/resource/London","label":"London","score":0.67,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"f121dc84b2c4c91cf82e108ccfd58431dfadb05a","url":"http://www.theguardian.com/uk-news/picture/2014/nov/30/london-weather","image":"http://feeds.theguardian.com/c/34708/f/663828/s/40f927d5/sc/39/mf.gif","body":"Please activate cookies in order to turn autoplay off","feed-id":12,"published":"2014-11-30T11:58:27.000Z"},{"description":"Awards ceremony held at the London Coliseum attracted scores of celebrities, including Tom Ford, Lewis Hamilton and Victoria Beckham .   Continue reading...","images":[],"videos":[],"source":{"source-uuid":"f78a126c-697b-4f94-b027-eac71b072edb","source-id":8,"source-name":"The Guardian"},"title":"British Fashion awards – in pictures","concepts":[{"count":1,"surface_form":"London, Tilbury and Southend Railway","uri":"http://dbpedia.org/resource/London,_Tilbury_and_Southend_Railway","label":"London, Tilbury and Southend Railway","score":0.4,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"Greensboro Coliseum Complex","uri":"http://dbpedia.org/resource/Greensboro_Coliseum_Complex","label":"Greensboro Coliseum Complex","score":0.44,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"London","uri":"http://dbpedia.org/resource/London","label":"London","score":0.61,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"Tom Ford","uri":"http://dbpedia.org/resource/Tom_Ford","label":"Tom Ford","score":0.48,"types":[],"generic-type":"http://dbpedia.org/ontology/Person"},{"count":1,"surface_form":"Victoria Beckham","uri":"http://dbpedia.org/resource/Victoria_Beckham","label":"Victoria Beckham","score":0.53,"types":[],"generic-type":"http://dbpedia.org/ontology/Person"}],"id":"d0e20d698cfd66f84eaf29562ce628fa4e5bb292","url":"http://www.theguardian.com/fashion/gallery/2014/dec/02/british-fashion-awards-london-coliseum-in-pictures","image":"http://feeds.theguardian.com/c/34708/f/663828/s/4108986a/sc/17/mf.gif","body":"Awards ceremony held at the London Coliseum attracted scores of celebrities, including Tom Ford, Lewis Hamilton and Victoria Beckham","feed-id":12,"published":"2014-12-02T09:00:00.000Z"},{"description":"The International Space Station was visible on two occasions as it moved across the London skyline on Wednesday evening.","images":[],"videos":[],"source":{"source-uuid":"4b9b4468-1395-4a38-b580-82618d0cc90b","source-id":1,"source-name":"BBC News"},"title":"VIDEO: Space station visible in London skies","concepts":[{"count":1,"surface_form":"Wednesday","uri":"http://dbpedia.org/resource/Sheffield_Wednesday_F.C.","label":"Wednesday","score":0.41,"types":[],"generic-type":"http://dbpedia.org/ontology/Organisation"},{"count":1,"surface_form":"London, Tilbury and Southend Railway","uri":"http://dbpedia.org/resource/London,_Tilbury_and_Southend_Railway","label":"London, Tilbury and Southend Railway","score":0.44,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"},{"count":1,"surface_form":"London","uri":"http://dbpedia.org/resource/London","label":"London","score":0.55,"types":[],"generic-type":"http://dbpedia.org/ontology/Place"}],"id":"152cf6797380d5160f9cf460925448ca78c3c642","url":"http://www.bbc.co.uk/news/science-environment-30600469","image":"http://news.bbcimg.co.uk/media/images/79931000/jpg/_79931414_79931394.jpg","body":"The International Space Station was visible on two occasions as it moved across the London skyline on Wednesday evening.\n\nTravelling at 17,000 mph 200 miles above the earth, the ISS looked like a very bright fast moving star as it moved from west to east across the southern sky.","feed-id":3,"published":"2014-12-24T22:37:26.000Z"}]}
+
+
+{
+  "timeseries": [
+    {
+      "key_as_string": "2014-10-07T00:00:00.000Z",
+      "key": 1412640000000,
+      "doc_count": 159
+    },
+    {
+      "key_as_string": "2014-10-08T00:00:00.000Z",
+      "key": 1412726400000,
+      "doc_count": 236
+    },
+    {
+      "key_as_string": "2014-10-09T00:00:00.000Z",
+      "key": 1412812800000,
+      "doc_count": 257
+    },
+    {
+      "key_as_string": "2014-10-10T00:00:00.000Z",
+      "key": 1412899200000,
+      "doc_count": 225
+    },
+    {
+      "key_as_string": "2014-10-11T00:00:00.000Z",
+      "key": 1412985600000,
+      "doc_count": 134
+    },
+    {
+      "key_as_string": "2014-10-12T00:00:00.000Z",
+      "key": 1413072000000,
+      "doc_count": 126
+    },
+    {
+      "key_as_string": "2014-10-13T00:00:00.000Z",
+      "key": 1413158400000,
+      "doc_count": 233
+    },
+    {
+      "key_as_string": "2014-10-14T00:00:00.000Z",
+      "key": 1413244800000,
+      "doc_count": 255
+    },
+    {
+      "key_as_string": "2014-10-15T00:00:00.000Z",
+      "key": 1413331200000,
+      "doc_count": 226
+    },
+    {
+      "key_as_string": "2014-10-16T00:00:00.000Z",
+      "key": 1413417600000,
+      "doc_count": 248
+    },
+    {
+      "key_as_string": "2014-10-17T00:00:00.000Z",
+      "key": 1413504000000,
+      "doc_count": 239
+    },
+    {
+      "key_as_string": "2014-10-18T00:00:00.000Z",
+      "key": 1413590400000,
+      "doc_count": 132
+    },
+    {
+      "key_as_string": "2014-10-19T00:00:00.000Z",
+      "key": 1413676800000,
+      "doc_count": 132
+    },
+    {
+      "key_as_string": "2014-10-20T00:00:00.000Z",
+      "key": 1413763200000,
+      "doc_count": 232
+    },
+    {
+      "key_as_string": "2014-10-21T00:00:00.000Z",
+      "key": 1413849600000,
+      "doc_count": 234
+    },
+    {
+      "key_as_string": "2014-10-22T00:00:00.000Z",
+      "key": 1413936000000,
+      "doc_count": 224
+    },
+    {
+      "key_as_string": "2014-10-23T00:00:00.000Z",
+      "key": 1414022400000,
+      "doc_count": 263
+    },
+    {
+      "key_as_string": "2014-10-24T00:00:00.000Z",
+      "key": 1414108800000,
+      "doc_count": 231
+    },
+    {
+      "key_as_string": "2014-10-25T00:00:00.000Z",
+      "key": 1414195200000,
+      "doc_count": 117
+    },
+    {
+      "key_as_string": "2014-10-26T00:00:00.000Z",
+      "key": 1414281600000,
+      "doc_count": 107
+    },
+    {
+      "key_as_string": "2014-10-27T00:00:00.000Z",
+      "key": 1414368000000,
+      "doc_count": 194
+    },
+    {
+      "key_as_string": "2014-10-28T00:00:00.000Z",
+      "key": 1414454400000,
+      "doc_count": 213
+    },
+    {
+      "key_as_string": "2014-10-29T00:00:00.000Z",
+      "key": 1414540800000,
+      "doc_count": 241
+    },
+    {
+      "key_as_string": "2014-10-30T00:00:00.000Z",
+      "key": 1414627200000,
+      "doc_count": 195
+    },
+    {
+      "key_as_string": "2014-10-31T00:00:00.000Z",
+      "key": 1414713600000,
+      "doc_count": 219
+    },
+    {
+      "key_as_string": "2014-11-01T00:00:00.000Z",
+      "key": 1414800000000,
+      "doc_count": 105
+    },
+    {
+      "key_as_string": "2014-11-02T00:00:00.000Z",
+      "key": 1414886400000,
+      "doc_count": 123
+    },
+    {
+      "key_as_string": "2014-11-03T00:00:00.000Z",
+      "key": 1414972800000,
+      "doc_count": 227
+    },
+    {
+      "key_as_string": "2014-11-04T00:00:00.000Z",
+      "key": 1415059200000,
+      "doc_count": 213
+    },
+    {
+      "key_as_string": "2014-11-05T00:00:00.000Z",
+      "key": 1415145600000,
+      "doc_count": 223
+    },
+    {
+      "key_as_string": "2014-11-06T00:00:00.000Z",
+      "key": 1415232000000,
+      "doc_count": 212
+    },
+    {
+      "key_as_string": "2014-11-07T00:00:00.000Z",
+      "key": 1415318400000,
+      "doc_count": 265
+    },
+    {
+      "key_as_string": "2014-11-08T00:00:00.000Z",
+      "key": 1415404800000,
+      "doc_count": 111
+    },
+    {
+      "key_as_string": "2014-11-09T00:00:00.000Z",
+      "key": 1415491200000,
+      "doc_count": 157
+    },
+    {
+      "key_as_string": "2014-11-10T00:00:00.000Z",
+      "key": 1415577600000,
+      "doc_count": 283
+    },
+    {
+      "key_as_string": "2014-11-11T00:00:00.000Z",
+      "key": 1415664000000,
+      "doc_count": 255
+    },
+    {
+      "key_as_string": "2014-11-12T00:00:00.000Z",
+      "key": 1415750400000,
+      "doc_count": 220
+    },
+    {
+      "key_as_string": "2014-11-13T00:00:00.000Z",
+      "key": 1415836800000,
+      "doc_count": 247
+    },
+    {
+      "key_as_string": "2014-11-14T00:00:00.000Z",
+      "key": 1415923200000,
+      "doc_count": 248
+    },
+    {
+      "key_as_string": "2014-11-15T00:00:00.000Z",
+      "key": 1416009600000,
+      "doc_count": 106
+    },
+    {
+      "key_as_string": "2014-11-16T00:00:00.000Z",
+      "key": 1416096000000,
+      "doc_count": 115
+    },
+    {
+      "key_as_string": "2014-11-17T00:00:00.000Z",
+      "key": 1416182400000,
+      "doc_count": 238
+    },
+    {
+      "key_as_string": "2014-11-18T00:00:00.000Z",
+      "key": 1416268800000,
+      "doc_count": 264
+    },
+    {
+      "key_as_string": "2014-11-19T00:00:00.000Z",
+      "key": 1416355200000,
+      "doc_count": 259
+    },
+    {
+      "key_as_string": "2014-11-20T00:00:00.000Z",
+      "key": 1416441600000,
+      "doc_count": 243
+    },
+    {
+      "key_as_string": "2014-11-21T00:00:00.000Z",
+      "key": 1416528000000,
+      "doc_count": 292
+    },
+    {
+      "key_as_string": "2014-11-22T00:00:00.000Z",
+      "key": 1416614400000,
+      "doc_count": 121
+    },
+    {
+      "key_as_string": "2014-11-23T00:00:00.000Z",
+      "key": 1416700800000,
+      "doc_count": 136
+    },
+    {
+      "key_as_string": "2014-11-24T00:00:00.000Z",
+      "key": 1416787200000,
+      "doc_count": 239
+    },
+    {
+      "key_as_string": "2014-11-25T00:00:00.000Z",
+      "key": 1416873600000,
+      "doc_count": 271
+    },
+    {
+      "key_as_string": "2014-11-26T00:00:00.000Z",
+      "key": 1416960000000,
+      "doc_count": 232
+    },
+    {
+      "key_as_string": "2014-11-27T00:00:00.000Z",
+      "key": 1417046400000,
+      "doc_count": 252
+    },
+    {
+      "key_as_string": "2014-11-28T00:00:00.000Z",
+      "key": 1417132800000,
+      "doc_count": 244
+    },
+    {
+      "key_as_string": "2014-11-29T00:00:00.000Z",
+      "key": 1417219200000,
+      "doc_count": 163
+    },
+    {
+      "key_as_string": "2014-11-30T00:00:00.000Z",
+      "key": 1417305600000,
+      "doc_count": 131
+    },
+    {
+      "key_as_string": "2014-12-01T00:00:00.000Z",
+      "key": 1417392000000,
+      "doc_count": 241
+    },
+    {
+      "key_as_string": "2014-12-02T00:00:00.000Z",
+      "key": 1417478400000,
+      "doc_count": 249
+    },
+    {
+      "key_as_string": "2014-12-03T00:00:00.000Z",
+      "key": 1417564800000,
+      "doc_count": 262
+    },
+    {
+      "key_as_string": "2014-12-04T00:00:00.000Z",
+      "key": 1417651200000,
+      "doc_count": 249
+    },
+    {
+      "key_as_string": "2014-12-05T00:00:00.000Z",
+      "key": 1417737600000,
+      "doc_count": 252
+    },
+    {
+      "key_as_string": "2014-12-06T00:00:00.000Z",
+      "key": 1417824000000,
+      "doc_count": 99
+    },
+    {
+      "key_as_string": "2014-12-07T00:00:00.000Z",
+      "key": 1417910400000,
+      "doc_count": 136
+    },
+    {
+      "key_as_string": "2014-12-08T00:00:00.000Z",
+      "key": 1417996800000,
+      "doc_count": 223
+    },
+    {
+      "key_as_string": "2014-12-09T00:00:00.000Z",
+      "key": 1418083200000,
+      "doc_count": 208
+    },
+    {
+      "key_as_string": "2014-12-10T00:00:00.000Z",
+      "key": 1418169600000,
+      "doc_count": 228
+    },
+    {
+      "key_as_string": "2014-12-11T00:00:00.000Z",
+      "key": 1418256000000,
+      "doc_count": 226
+    },
+    {
+      "key_as_string": "2014-12-12T00:00:00.000Z",
+      "key": 1418342400000,
+      "doc_count": 234
+    },
+    {
+      "key_as_string": "2014-12-13T00:00:00.000Z",
+      "key": 1418428800000,
+      "doc_count": 116
+    },
+    {
+      "key_as_string": "2014-12-14T00:00:00.000Z",
+      "key": 1418515200000,
+      "doc_count": 146
+    },
+    {
+      "key_as_string": "2014-12-15T00:00:00.000Z",
+      "key": 1418601600000,
+      "doc_count": 257
+    },
+    {
+      "key_as_string": "2014-12-16T00:00:00.000Z",
+      "key": 1418688000000,
+      "doc_count": 235
+    },
+    {
+      "key_as_string": "2014-12-17T00:00:00.000Z",
+      "key": 1418774400000,
+      "doc_count": 231
+    },
+    {
+      "key_as_string": "2014-12-18T00:00:00.000Z",
+      "key": 1418860800000,
+      "doc_count": 196
+    },
+    {
+      "key_as_string": "2014-12-19T00:00:00.000Z",
+      "key": 1418947200000,
+      "doc_count": 224
+    },
+    {
+      "key_as_string": "2014-12-20T00:00:00.000Z",
+      "key": 1419033600000,
+      "doc_count": 114
+    },
+    {
+      "key_as_string": "2014-12-21T00:00:00.000Z",
+      "key": 1419120000000,
+      "doc_count": 126
+    },
+    {
+      "key_as_string": "2014-12-22T00:00:00.000Z",
+      "key": 1419206400000,
+      "doc_count": 177
+    },
+    {
+      "key_as_string": "2014-12-23T00:00:00.000Z",
+      "key": 1419292800000,
+      "doc_count": 155
+    },
+    {
+      "key_as_string": "2014-12-24T00:00:00.000Z",
+      "key": 1419379200000,
+      "doc_count": 100
+    },
+    {
+      "key_as_string": "2014-12-25T00:00:00.000Z",
+      "key": 1419465600000,
+      "doc_count": 82
+    },
+    {
+      "key_as_string": "2014-12-26T00:00:00.000Z",
+      "key": 1419552000000,
+      "doc_count": 94
+    },
+    {
+      "key_as_string": "2014-12-27T00:00:00.000Z",
+      "key": 1419638400000,
+      "doc_count": 118
+    },
+    {
+      "key_as_string": "2014-12-28T00:00:00.000Z",
+      "key": 1419724800000,
+      "doc_count": 118
+    },
+    {
+      "key_as_string": "2014-12-29T00:00:00.000Z",
+      "key": 1419811200000,
+      "doc_count": 156
+    },
+    {
+      "key_as_string": "2014-12-30T00:00:00.000Z",
+      "key": 1419897600000,
+      "doc_count": 271
+    },
+    {
+      "key_as_string": "2014-12-31T00:00:00.000Z",
+      "key": 1419984000000,
+      "doc_count": 187
+    },
+    {
+      "key_as_string": "2015-01-01T00:00:00.000Z",
+      "key": 1420070400000,
+      "doc_count": 153
+    },
+    {
+      "key_as_string": "2015-01-02T00:00:00.000Z",
+      "key": 1420156800000,
+      "doc_count": 187
+    },
+    {
+      "key_as_string": "2015-01-03T00:00:00.000Z",
+      "key": 1420243200000,
+      "doc_count": 158
+    },
+    {
+      "key_as_string": "2015-01-04T00:00:00.000Z",
+      "key": 1420329600000,
+      "doc_count": 136
+    },
+    {
+      "key_as_string": "2015-01-05T00:00:00.000Z",
+      "key": 1420416000000,
+      "doc_count": 222
+    },
+    {
+      "key_as_string": "2015-01-06T00:00:00.000Z",
+      "key": 1420502400000,
+      "doc_count": 240
+    },
+    {
+      "key_as_string": "2015-01-07T00:00:00.000Z",
+      "key": 1420588800000,
+      "doc_count": 225
+    },
+    {
+      "key_as_string": "2015-01-08T00:00:00.000Z",
+      "key": 1420675200000,
+      "doc_count": 222
+    },
+    {
+      "key_as_string": "2015-01-09T00:00:00.000Z",
+      "key": 1420761600000,
+      "doc_count": 209
+    },
+    {
+      "key_as_string": "2015-01-10T00:00:00.000Z",
+      "key": 1420848000000,
+      "doc_count": 130
+    },
+    {
+      "key_as_string": "2015-01-11T00:00:00.000Z",
+      "key": 1420934400000,
+      "doc_count": 127
+    },
+    {
+      "key_as_string": "2015-01-12T00:00:00.000Z",
+      "key": 1421020800000,
+      "doc_count": 245
+    },
+    {
+      "key_as_string": "2015-01-13T00:00:00.000Z",
+      "key": 1421107200000,
+      "doc_count": 229
+    },
+    {
+      "key_as_string": "2015-01-14T00:00:00.000Z",
+      "key": 1421193600000,
+      "doc_count": 251
+    },
+    {
+      "key_as_string": "2015-01-15T00:00:00.000Z",
+      "key": 1421280000000,
+      "doc_count": 255
+    },
+    {
+      "key_as_string": "2015-01-16T00:00:00.000Z",
+      "key": 1421366400000,
+      "doc_count": 277
+    },
+    {
+      "key_as_string": "2015-01-17T00:00:00.000Z",
+      "key": 1421452800000,
+      "doc_count": 134
+    },
+    {
+      "key_as_string": "2015-01-18T00:00:00.000Z",
+      "key": 1421539200000,
+      "doc_count": 129
+    },
+    {
+      "key_as_string": "2015-01-19T00:00:00.000Z",
+      "key": 1421625600000,
+      "doc_count": 260
+    },
+    {
+      "key_as_string": "2015-01-20T00:00:00.000Z",
+      "key": 1421712000000,
+      "doc_count": 257
+    },
+    {
+      "key_as_string": "2015-01-21T00:00:00.000Z",
+      "key": 1421798400000,
+      "doc_count": 233
+    },
+    {
+      "key_as_string": "2015-01-22T00:00:00.000Z",
+      "key": 1421884800000,
+      "doc_count": 272
+    },
+    {
+      "key_as_string": "2015-01-23T00:00:00.000Z",
+      "key": 1421971200000,
+      "doc_count": 278
+    },
+    {
+      "key_as_string": "2015-01-24T00:00:00.000Z",
+      "key": 1422057600000,
+      "doc_count": 120
+    },
+    {
+      "key_as_string": "2015-01-25T00:00:00.000Z",
+      "key": 1422144000000,
+      "doc_count": 101
+    },
+    {
+      "key_as_string": "2015-01-26T00:00:00.000Z",
+      "key": 1422230400000,
+      "doc_count": 142
+    },
+    {
+      "key_as_string": "2015-01-27T00:00:00.000Z",
+      "key": 1422316800000,
+      "doc_count": 226
+    },
+    {
+      "key_as_string": "2015-01-28T00:00:00.000Z",
+      "key": 1422403200000,
+      "doc_count": 213
+    },
+    {
+      "key_as_string": "2015-01-29T00:00:00.000Z",
+      "key": 1422489600000,
+      "doc_count": 198
+    },
+    {
+      "key_as_string": "2015-01-30T00:00:00.000Z",
+      "key": 1422576000000,
+      "doc_count": 227
+    },
+    {
+      "key_as_string": "2015-01-31T00:00:00.000Z",
+      "key": 1422662400000,
+      "doc_count": 117
+    },
+    {
+      "key_as_string": "2015-02-01T00:00:00.000Z",
+      "key": 1422748800000,
+      "doc_count": 20
+    },
+    {
+      "key_as_string": "2015-02-02T00:00:00.000Z",
+      "key": 1422835200000,
+      "doc_count": 223
+    },
+    {
+      "key_as_string": "2015-02-03T00:00:00.000Z",
+      "key": 1422921600000,
+      "doc_count": 228
+    },
+    {
+      "key_as_string": "2015-02-04T00:00:00.000Z",
+      "key": 1423008000000,
+      "doc_count": 225
+    },
+    {
+      "key_as_string": "2015-02-05T00:00:00.000Z",
+      "key": 1423094400000,
+      "doc_count": 294
+    },
+    {
+      "key_as_string": "2015-02-06T00:00:00.000Z",
+      "key": 1423180800000,
+      "doc_count": 475
+    },
+    {
+      "key_as_string": "2015-02-07T00:00:00.000Z",
+      "key": 1423267200000,
+      "doc_count": 275
+    },
+    {
+      "key_as_string": "2015-02-08T00:00:00.000Z",
+      "key": 1423353600000,
+      "doc_count": 338
+    },
+    {
+      "key_as_string": "2015-02-09T00:00:00.000Z",
+      "key": 1423440000000,
+      "doc_count": 500
+    },
+    {
+      "key_as_string": "2015-02-10T00:00:00.000Z",
+      "key": 1423526400000,
+      "doc_count": 510
+    },
+    {
+      "key_as_string": "2015-02-11T00:00:00.000Z",
+      "key": 1423612800000,
+      "doc_count": 481
+    },
+    {
+      "key_as_string": "2015-02-12T00:00:00.000Z",
+      "key": 1423699200000,
+      "doc_count": 578
+    },
+    {
+      "key_as_string": "2015-02-13T00:00:00.000Z",
+      "key": 1423785600000,
+      "doc_count": 457
+    },
+    {
+      "key_as_string": "2015-02-14T00:00:00.000Z",
+      "key": 1423872000000,
+      "doc_count": 268
+    },
+    {
+      "key_as_string": "2015-02-15T00:00:00.000Z",
+      "key": 1423958400000,
+      "doc_count": 314
+    },
+    {
+      "key_as_string": "2015-02-16T00:00:00.000Z",
+      "key": 1424044800000,
+      "doc_count": 489
+    },
+    {
+      "key_as_string": "2015-02-17T00:00:00.000Z",
+      "key": 1424131200000,
+      "doc_count": 457
+    },
+    {
+      "key_as_string": "2015-02-18T00:00:00.000Z",
+      "key": 1424217600000,
+      "doc_count": 388
+    },
+    {
+      "key_as_string": "2015-02-19T00:00:00.000Z",
+      "key": 1424304000000,
+      "doc_count": 591
+    },
+    {
+      "key_as_string": "2015-02-20T00:00:00.000Z",
+      "key": 1424390400000,
+      "doc_count": 544
+    },
+    {
+      "key_as_string": "2015-02-21T00:00:00.000Z",
+      "key": 1424476800000,
+      "doc_count": 404
+    },
+    {
+      "key_as_string": "2015-02-22T00:00:00.000Z",
+      "key": 1424563200000,
+      "doc_count": 383
+    },
+    {
+      "key_as_string": "2015-02-23T00:00:00.000Z",
+      "key": 1424649600000,
+      "doc_count": 511
+    },
+    {
+      "key_as_string": "2015-02-24T00:00:00.000Z",
+      "key": 1424736000000,
+      "doc_count": 571
+    },
+    {
+      "key_as_string": "2015-02-25T00:00:00.000Z",
+      "key": 1424822400000,
+      "doc_count": 527
+    },
+    {
+      "key_as_string": "2015-02-26T00:00:00.000Z",
+      "key": 1424908800000,
+      "doc_count": 692
+    },
+    {
+      "key_as_string": "2015-02-27T00:00:00.000Z",
+      "key": 1424995200000,
+      "doc_count": 601
+    },
+    {
+      "key_as_string": "2015-02-28T00:00:00.000Z",
+      "key": 1425081600000,
+      "doc_count": 401
+    },
+    {
+      "key_as_string": "2015-03-01T00:00:00.000Z",
+      "key": 1425168000000,
+      "doc_count": 328
+    },
+    {
+      "key_as_string": "2015-03-02T00:00:00.000Z",
+      "key": 1425254400000,
+      "doc_count": 648
+    },
+    {
+      "key_as_string": "2015-03-03T00:00:00.000Z",
+      "key": 1425340800000,
+      "doc_count": 625
+    },
+    {
+      "key_as_string": "2015-03-04T00:00:00.000Z",
+      "key": 1425427200000,
+      "doc_count": 666
+    },
+    {
+      "key_as_string": "2015-03-05T00:00:00.000Z",
+      "key": 1425513600000,
+      "doc_count": 517
+    },
+    {
+      "key_as_string": "2015-03-06T00:00:00.000Z",
+      "key": 1425600000000,
+      "doc_count": 557
+    },
+    {
+      "key_as_string": "2015-03-07T00:00:00.000Z",
+      "key": 1425686400000,
+      "doc_count": 345
+    },
+    {
+      "key_as_string": "2015-03-08T00:00:00.000Z",
+      "key": 1425772800000,
+      "doc_count": 321
+    },
+    {
+      "key_as_string": "2015-03-09T00:00:00.000Z",
+      "key": 1425859200000,
+      "doc_count": 486
+    },
+    {
+      "key_as_string": "2015-03-10T00:00:00.000Z",
+      "key": 1425945600000,
+      "doc_count": 535
+    },
+    {
+      "key_as_string": "2015-03-11T00:00:00.000Z",
+      "key": 1426032000000,
+      "doc_count": 626
+    },
+    {
+      "key_as_string": "2015-03-12T00:00:00.000Z",
+      "key": 1426118400000,
+      "doc_count": 665
+    },
+    {
+      "key_as_string": "2015-03-13T00:00:00.000Z",
+      "key": 1426204800000,
+      "doc_count": 619
+    },
+    {
+      "key_as_string": "2015-03-14T00:00:00.000Z",
+      "key": 1426291200000,
+      "doc_count": 316
+    },
+    {
+      "key_as_string": "2015-03-15T00:00:00.000Z",
+      "key": 1426377600000,
+      "doc_count": 317
+    },
+    {
+      "key_as_string": "2015-03-16T00:00:00.000Z",
+      "key": 1426464000000,
+      "doc_count": 557
+    },
+    {
+      "key_as_string": "2015-03-17T00:00:00.000Z",
+      "key": 1426550400000,
+      "doc_count": 634
+    },
+    {
+      "key_as_string": "2015-03-18T00:00:00.000Z",
+      "key": 1426636800000,
+      "doc_count": 566
+    },
+    {
+      "key_as_string": "2015-03-19T00:00:00.000Z",
+      "key": 1426723200000,
+      "doc_count": 615
+    },
+    {
+      "key_as_string": "2015-03-20T00:00:00.000Z",
+      "key": 1426809600000,
+      "doc_count": 654
+    },
+    {
+      "key_as_string": "2015-03-21T00:00:00.000Z",
+      "key": 1426896000000,
+      "doc_count": 349
+    },
+    {
+      "key_as_string": "2015-03-22T00:00:00.000Z",
+      "key": 1426982400000,
+      "doc_count": 326
+    },
+    {
+      "key_as_string": "2015-03-23T00:00:00.000Z",
+      "key": 1427068800000,
+      "doc_count": 628
+    },
+    {
+      "key_as_string": "2015-03-24T00:00:00.000Z",
+      "key": 1427155200000,
+      "doc_count": 617
+    },
+    {
+      "key_as_string": "2015-03-25T00:00:00.000Z",
+      "key": 1427241600000,
+      "doc_count": 632
+    },
+    {
+      "key_as_string": "2015-03-26T00:00:00.000Z",
+      "key": 1427328000000,
+      "doc_count": 683
+    },
+    {
+      "key_as_string": "2015-03-27T00:00:00.000Z",
+      "key": 1427414400000,
+      "doc_count": 653
+    },
+    {
+      "key_as_string": "2015-03-28T00:00:00.000Z",
+      "key": 1427500800000,
+      "doc_count": 327
+    },
+    {
+      "key_as_string": "2015-03-29T00:00:00.000Z",
+      "key": 1427587200000,
+      "doc_count": 407
+    },
+    {
+      "key_as_string": "2015-03-30T00:00:00.000Z",
+      "key": 1427673600000,
+      "doc_count": 679
+    },
+    {
+      "key_as_string": "2015-03-31T00:00:00.000Z",
+      "key": 1427760000000,
+      "doc_count": 712
+    },
+    {
+      "key_as_string": "2015-04-01T00:00:00.000Z",
+      "key": 1427846400000,
+      "doc_count": 683
+    },
+    {
+      "key_as_string": "2015-04-02T00:00:00.000Z",
+      "key": 1427932800000,
+      "doc_count": 667
+    },
+    {
+      "key_as_string": "2015-04-03T00:00:00.000Z",
+      "key": 1428019200000,
+      "doc_count": 527
+    },
+    {
+      "key_as_string": "2015-04-04T00:00:00.000Z",
+      "key": 1428105600000,
+      "doc_count": 458
+    },
+    {
+      "key_as_string": "2015-04-05T00:00:00.000Z",
+      "key": 1428192000000,
+      "doc_count": 409
+    },
+    {
+      "key_as_string": "2015-04-06T00:00:00.000Z",
+      "key": 1428278400000,
+      "doc_count": 418
+    },
+    {
+      "key_as_string": "2015-04-07T00:00:00.000Z",
+      "key": 1428364800000,
+      "doc_count": 195
+    }
+  ],
+  "aggregations": {
+    "id": "results",
+    "count": 941308,
+    "items": [
+      {
+        "id": "http:\/\/dbpedia.org\/ontology\/Place",
+        "count": 292500,
+        "items": [
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/London",
+            "count": 27519
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/British_Empire",
+            "count": 6059
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Great_Britain",
+            "count": 4895
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/England",
+            "count": 4441
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Scotland",
+            "count": 3865
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/United_Kingdom",
+            "count": 3831
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Europe",
+            "count": 3537
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Home_(nightclub)",
+            "count": 3513
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Australia",
+            "count": 2936
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/France",
+            "count": 2039
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Manchester",
+            "count": 1993
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/North_London",
+            "count": 1944
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Birmingham",
+            "count": 1918
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Paris",
+            "count": 1906
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Syria",
+            "count": 1906
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Christmas_Island",
+            "count": 1683
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/New_Orleans_Lakefront_Airport",
+            "count": 1532
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/United_States",
+            "count": 1472
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/London_Heathrow_Airport",
+            "count": 1312
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Edinburgh",
+            "count": 1307
+          }
+        ]
+      },
+      {
+        "id": "http:\/\/dbpedia.org\/ontology\/Person",
+        "count": 240923,
+        "items": [
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/David_Cameron",
+            "count": 2927
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/John_Pringle",
+            "count": 1626
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Ed_Miliband",
+            "count": 1584
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Doctor_Willard_Bliss",
+            "count": 1454
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Boris_Johnson",
+            "count": 998
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Muhammad",
+            "count": 929
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Nigel_Farage",
+            "count": 752
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Nick_Clegg",
+            "count": 733
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Jos%C3%A9_Mourinho",
+            "count": 694
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Stephen_Campbell_Moore",
+            "count": 669
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Barack_Obama",
+            "count": 660
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Ars%C3%A8ne_Wenger",
+            "count": 627
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Thing_(The_Addams_Family)",
+            "count": 610
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Tony_Blair",
+            "count": 563
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Shepherd_Book",
+            "count": 540
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Maria_Theresa",
+            "count": 534
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Nicola_Sturgeon",
+            "count": 506
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Vladimir_Putin",
+            "count": 505
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Louis_van_Gaal",
+            "count": 494
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Mr._Big_(Sex_and_the_City)",
+            "count": 493
+          }
+        ]
+      },
+      {
+        "id": "http:\/\/dbpedia.org\/resource\/Thing",
+        "count": 215560,
+        "items": [
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Human_back",
+            "count": 1634
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Hand",
+            "count": 766
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Man",
+            "count": 749
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Death",
+            "count": 659
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/French_people",
+            "count": 509
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Police",
+            "count": 454
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Week",
+            "count": 440
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/The_Man",
+            "count": 410
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Court",
+            "count": 406
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Family_(U.S._Census)",
+            "count": 397
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Allegation",
+            "count": 394
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Spokesperson",
+            "count": 385
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Maker_culture",
+            "count": 368
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Development_plan",
+            "count": 364
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Greatness",
+            "count": 348
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Business",
+            "count": 343
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Adverse_effect",
+            "count": 340
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Month",
+            "count": 329
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/English_language",
+            "count": 328
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Use_(law)",
+            "count": 309
+          }
+        ]
+      },
+      {
+        "id": "http:\/\/dbpedia.org\/ontology\/Organisation",
+        "count": 192325,
+        "items": [
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Twitter",
+            "count": 5601
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/BBC",
+            "count": 3527
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Premier_League",
+            "count": 3110
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Sheffield_Wednesday_F.C.",
+            "count": 2441
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Conservative_Party_(UK)",
+            "count": 2066
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Aware_(voluntary_organisation)",
+            "count": 2009
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Chelsea_F.C.",
+            "count": 1910
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Manchester_United_F.C.",
+            "count": 1675
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Passenger_(British_band)",
+            "count": 1606
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/UK_Independence_Party",
+            "count": 1516
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Tottenham_Hotspur_F.C.",
+            "count": 1504
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Liberal_Democrats",
+            "count": 1491
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Relapse_Records",
+            "count": 1315
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Manchester_City_F.C.",
+            "count": 1252
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Scottish_National_Party",
+            "count": 1216
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Rakuten.com",
+            "count": 1151
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Liverpool_F.C.",
+            "count": 1020
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Flights",
+            "count": 967
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/Labour_Party_(UK)",
+            "count": 924
+          },
+          {
+            "id": "http:\/\/dbpedia.org\/resource\/ITV_(TV_network)",
+            "count": 918
+          }
+        ]
+      }
+    ]
+  },
+  "total": 54862,
+  "hits": [
+    {
+      "description": "Architect Jim Heverin describes the London Aquatics Centre.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "4b9b4468-1395-4a38-b580-82618d0cc90b",
+        "source-id": 1,
+        "source-name": "BBC News"
+      },
+      "title": "VIDEO: Stirling Prize 2014: London Aquatics Centre",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "London, Tilbury and Southend Railway",
+          "uri": "http:\/\/dbpedia.org\/resource\/London,_Tilbury_and_Southend_Railway",
+          "label": "London, Tilbury and Southend Railway",
+          "score": 0.43,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "London Aquatics Centre",
+          "uri": "http:\/\/dbpedia.org\/resource\/London_Aquatics_Centre",
+          "label": "London Aquatics Centre",
+          "score": 0.58,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "dfb3a2d8cc4188fd222ebd76d455141f5b00ed2d",
+      "url": "http:\/\/www.bbc.co.uk\/news\/magazine-29521683",
+      "image": null,
+      "body": "For a better experience on your device, try our mobile site.",
+      "feed-id": 3,
+      "published": "2014-10-09T18:21:40.000Z"
+    },
+    {
+      "description": "See how the London Aquatics Centre changed after the London 2012 Olympic Games.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "4b9b4468-1395-4a38-b580-82618d0cc90b",
+        "source-id": 1,
+        "source-name": "BBC News"
+      },
+      "title": "VIDEO: Stirling Prize 2014: London Aquatics Centre",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "London Legacy Development Corporation",
+          "uri": "http:\/\/dbpedia.org\/resource\/London_Legacy_Development_Corporation",
+          "label": "London Legacy Development Corporation",
+          "score": 0.58,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Organisation"
+        },
+        {
+          "count": 1,
+          "surface_form": "London, Tilbury and Southend Railway",
+          "uri": "http:\/\/dbpedia.org\/resource\/London,_Tilbury_and_Southend_Railway",
+          "label": "London, Tilbury and Southend Railway",
+          "score": 0.44,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "Stirling",
+          "uri": "http:\/\/dbpedia.org\/resource\/Stirling",
+          "label": "Stirling",
+          "score": 0.55,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "London Aquatics Centre",
+          "uri": "http:\/\/dbpedia.org\/resource\/London_Aquatics_Centre",
+          "label": "London Aquatics Centre",
+          "score": 0.59,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "Sheryl Crow",
+          "uri": "http:\/\/dbpedia.org\/resource\/Sheryl_Crow",
+          "label": "Sheryl Crow",
+          "score": 0.42,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Person"
+        }
+      ],
+      "id": "664997c0573c6c5874cd1905668490e4c33217a5",
+      "url": "http:\/\/www.bbc.co.uk\/news\/magazine-29521684",
+      "image": null,
+      "body": "The London Aquatics Centre has been shortlisted for Riba's prestigious Stirling Prize.\n\nSee how the building has changed since the London 2012 Olympic Games.\n\nImages by Hufton and Crow Photography and LLDC Images",
+      "feed-id": 3,
+      "published": "2014-10-09T18:30:26.000Z"
+    },
+    {
+      "description": "Four men from London have been charged with intending to commit acts of terrorism, Scotland Yard has said.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "2dec7d16-385c-40b9-8d3f-bfb32a9181fd",
+        "source-id": 3,
+        "source-name": "Sky News"
+      },
+      "title": "Four London Men Charged Over Terror Offences",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "Men, Women & Children",
+          "uri": "http:\/\/dbpedia.org\/resource\/Men,_Women_&_Children",
+          "label": "Men, Women & Children",
+          "score": 0.43,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Organisation"
+        },
+        {
+          "count": 1,
+          "surface_form": "London",
+          "uri": "http:\/\/dbpedia.org\/resource\/London",
+          "label": "London",
+          "score": 0.51,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "a5976d1ada58de8828ab74771d532523e55a2a18",
+      "url": "http:\/\/news.sky.com\/story\/1355113\/london-terror-suspects-swore-allegiance-to-is",
+      "image": null,
+      "body": "Four men from London have been charged with intending to commit acts of terrorism, Scotland Yard has said.\n\nThe men, who allegedly swore an allegiance to extremist group Islamic State, have been charged with plotting a terrorist attack in London.",
+      "feed-id": 7,
+      "published": "2014-10-17T12:38:42.000Z"
+    },
+    {
+      "description": "",
+      "source": {
+        "source-uuid": "0366090f-52cc-4644-b012-45d19301b40e",
+        "source-id": 12,
+        "source-name": "The Mirror"
+      },
+      "title": "",
+      "concepts": [
+        
+      ],
+      "id": "a1a9079cf42d72578df40738ce02722ecdda5a5a",
+      "url": "http:\/\/www.mirror.co.uk\/lifestyle\/motoring\/london-bike-show-another-record-5236019",
+      "image": "",
+      "body": "",
+      "authors": [
+        
+      ],
+      "feed-id": 16,
+      "published": "2015-02-26T14:30:23Z"
+    },
+    {
+      "description": "",
+      "source": {
+        "source-uuid": "f5ab1c67-749e-4681-86a6-75266d8fd118",
+        "source-id": 135,
+        "source-name": "This Day Live"
+      },
+      "title": "",
+      "concepts": [
+        
+      ],
+      "id": "8f367e3a1bdd9915df89dc2f30f65ac78c60e91c",
+      "url": "http:\/\/www.thisdaylive.com\/articles\/buhari-back-from-london\/203441\/",
+      "image": "",
+      "body": "",
+      "authors": [
+        
+      ],
+      "feed-id": 185,
+      "published": "2015-03-06T06:57:18Z"
+    },
+    {
+      "description": "Watch the London Aquatics Centre roof being built.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "4b9b4468-1395-4a38-b580-82618d0cc90b",
+        "source-id": 1,
+        "source-name": "BBC News"
+      },
+      "title": "VIDEO: Stirling Prize 2014: London Aquatics Centre",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "London Aquatics Centre",
+          "uri": "http:\/\/dbpedia.org\/resource\/London_Aquatics_Centre",
+          "label": "London Aquatics Centre",
+          "score": 0.58,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "63b5b27579a80edf5db46a4344272101fd99c0a6",
+      "url": "http:\/\/www.bbc.co.uk\/news\/magazine-29521685",
+      "image": null,
+      "body": "For a better experience on your device, try our mobile site.",
+      "feed-id": 3,
+      "published": "2014-10-09T18:32:24.000Z"
+    },
+    {
+      "description": "A woman has died in London after a tree felled by the storms caused a wall to collapse.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "4b9b4468-1395-4a38-b580-82618d0cc90b",
+        "source-id": 1,
+        "source-name": "BBC News"
+      },
+      "title": "VIDEO: Woman dies in UK storm",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "London",
+          "uri": "http:\/\/dbpedia.org\/resource\/London",
+          "label": "London",
+          "score": 0.5,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "eb2b9886b8eaf3d61bf0e3fe65c1f6b14d7471a9",
+      "url": "http:\/\/www.bbc.co.uk\/news\/uk-29711986",
+      "image": null,
+      "body": "A woman has died in London after a tree felled by the storms caused a wall to collapse.\n\nThe tail end of Hurricane Gonzalo has caused disruption across the UK.",
+      "feed-id": 3,
+      "published": "2014-10-21T16:18:44.000Z"
+    },
+    {
+      "description": "Photographs from the Guardian Eyewitness series  Continue reading...",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "f78a126c-697b-4f94-b027-eac71b072edb",
+        "source-id": 8,
+        "source-name": "The Guardian"
+      },
+      "title": "Eyewitness: London",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "The Weather Channel",
+          "uri": "http:\/\/dbpedia.org\/resource\/The_Weather_Channel",
+          "label": "The Weather Channel",
+          "score": 0.48,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Organisation"
+        },
+        {
+          "count": 1,
+          "surface_form": "London",
+          "uri": "http:\/\/dbpedia.org\/resource\/London",
+          "label": "London",
+          "score": 0.67,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "f121dc84b2c4c91cf82e108ccfd58431dfadb05a",
+      "url": "http:\/\/www.theguardian.com\/uk-news\/picture\/2014\/nov\/30\/london-weather",
+      "image": "http:\/\/feeds.theguardian.com\/c\/34708\/f\/663828\/s\/40f927d5\/sc\/39\/mf.gif",
+      "body": "Please activate cookies in order to turn autoplay off",
+      "feed-id": 12,
+      "published": "2014-11-30T11:58:27.000Z"
+    },
+    {
+      "description": "Awards ceremony held at the London Coliseum attracted scores of celebrities, including Tom Ford, Lewis Hamilton and Victoria Beckham .   Continue reading...",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "f78a126c-697b-4f94-b027-eac71b072edb",
+        "source-id": 8,
+        "source-name": "The Guardian"
+      },
+      "title": "British Fashion awards \u2013 in pictures",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "London, Tilbury and Southend Railway",
+          "uri": "http:\/\/dbpedia.org\/resource\/London,_Tilbury_and_Southend_Railway",
+          "label": "London, Tilbury and Southend Railway",
+          "score": 0.4,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "Greensboro Coliseum Complex",
+          "uri": "http:\/\/dbpedia.org\/resource\/Greensboro_Coliseum_Complex",
+          "label": "Greensboro Coliseum Complex",
+          "score": 0.44,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "London",
+          "uri": "http:\/\/dbpedia.org\/resource\/London",
+          "label": "London",
+          "score": 0.61,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "Tom Ford",
+          "uri": "http:\/\/dbpedia.org\/resource\/Tom_Ford",
+          "label": "Tom Ford",
+          "score": 0.48,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Person"
+        },
+        {
+          "count": 1,
+          "surface_form": "Victoria Beckham",
+          "uri": "http:\/\/dbpedia.org\/resource\/Victoria_Beckham",
+          "label": "Victoria Beckham",
+          "score": 0.53,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Person"
+        }
+      ],
+      "id": "d0e20d698cfd66f84eaf29562ce628fa4e5bb292",
+      "url": "http:\/\/www.theguardian.com\/fashion\/gallery\/2014\/dec\/02\/british-fashion-awards-london-coliseum-in-pictures",
+      "image": "http:\/\/feeds.theguardian.com\/c\/34708\/f\/663828\/s\/4108986a\/sc\/17\/mf.gif",
+      "body": "Awards ceremony held at the London Coliseum attracted scores of celebrities, including Tom Ford, Lewis Hamilton and Victoria Beckham",
+      "feed-id": 12,
+      "published": "2014-12-02T09:00:00.000Z"
+    },
+    {
+      "description": "The International Space Station was visible on two occasions as it moved across the London skyline on Wednesday evening.",
+      "images": [
+        
+      ],
+      "videos": [
+        
+      ],
+      "source": {
+        "source-uuid": "4b9b4468-1395-4a38-b580-82618d0cc90b",
+        "source-id": 1,
+        "source-name": "BBC News"
+      },
+      "title": "VIDEO: Space station visible in London skies",
+      "concepts": [
+        {
+          "count": 1,
+          "surface_form": "Wednesday",
+          "uri": "http:\/\/dbpedia.org\/resource\/Sheffield_Wednesday_F.C.",
+          "label": "Wednesday",
+          "score": 0.41,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Organisation"
+        },
+        {
+          "count": 1,
+          "surface_form": "London, Tilbury and Southend Railway",
+          "uri": "http:\/\/dbpedia.org\/resource\/London,_Tilbury_and_Southend_Railway",
+          "label": "London, Tilbury and Southend Railway",
+          "score": 0.44,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        },
+        {
+          "count": 1,
+          "surface_form": "London",
+          "uri": "http:\/\/dbpedia.org\/resource\/London",
+          "label": "London",
+          "score": 0.55,
+          "types": [
+            
+          ],
+          "generic-type": "http:\/\/dbpedia.org\/ontology\/Place"
+        }
+      ],
+      "id": "152cf6797380d5160f9cf460925448ca78c3c642",
+      "url": "http:\/\/www.bbc.co.uk\/news\/science-environment-30600469",
+      "image": "http:\/\/news.bbcimg.co.uk\/media\/images\/79931000\/jpg\/_79931414_79931394.jpg",
+      "body": "The International Space Station was visible on two occasions as it moved across the London skyline on Wednesday evening.\n\nTravelling at 17,000 mph 200 miles above the earth, the ISS looked like a very bright fast moving star as it moved from west to east across the southern sky.",
+      "feed-id": 3,
+      "published": "2014-12-24T22:37:26.000Z"
+    }
+  ]
+}
+
+
