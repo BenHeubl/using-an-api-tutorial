@@ -151,6 +151,18 @@ Nothing changed from before at the top: we give it an API key, a query to perfor
 >
 > `var query = "https://rawgit.com/basilesimon/using-an-api-tutorial/master/cacheJSON.json";`
 
+# Challenge round!
+
+Here's three tasks to take this web page a step further. Answers are at the bottom of this page, but I'll give you a big hint: each of these requires no more than a single line of code to be changed.
+
+## Make each headline hyperlinked
+Wouldn't it be useful to be able to click through to each article? The URLs are returned in the API response - can you get those into the HTML?
+
+## Fetch articles on David Cameron instead of London
+London is boring. So is the prime minister, but at least his name poses a challenge: that space in the URL will need encoding.
+
+## Fetch articles published before 2010
+The API request URL contains a query (`q=London`) and an API key (`apikey={apikey}`). But it can contain other things, too. Check [the API documentation](http://docs.bbcnewslabs.co.uk/Juicer-2.html) for additional parameters, including one that can limit the time period of returned articles.
 
 # Beyond this tutorial
 You pretty much know the basics right now, so here are a couple of things you could do to learn a bit more.
@@ -173,3 +185,29 @@ Why not writing a [Google News](https://news.google.com/)-y kind of thing? If yo
 * List the titles (as we did before)
 * Transform the list elements into links (`<a>` elements)
 * Change the source of the links to the corresponding URLs (tip: change `href`)
+
+# The answers
+
+## Make each headline hyperlinked
+
+Each item in the API response contains not only a `title`, but also a `url`. We can use it in a hyperlink like so:
+
+```js
+items.push( "<li><a href='" + val.url + "'>" + val.title + "</a></li>" );
+```
+
+## Fetch articles on David Cameron instead of London
+We can switch out "London" for "David Cameron" easily enough, but that space will need encoding as `%20`.
+
+```js
+var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=David%20Cameron&apikey=" + apikey;
+```
+
+## Fetch articles published before 2010
+
+We'll need to make use of the `published_before` URL parameter, as noted in the [API documentation](http://docs.bbcnewslabs.co.uk/Juicer-2.html), to achieve this:
+
+```js
+var query = "http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&published_before=2010-01-01T00:00:00.000Z&apikey=" + apikey;
+```
+
