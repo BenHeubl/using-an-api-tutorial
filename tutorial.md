@@ -36,9 +36,15 @@ Now, it might seem all a bit silly and broad, but you can use these APIs for qui
 In order to fetch or push data using an API, we must send a request. This will usually take the form of a URL, including a query and an API key.
 
 ### Example queries
-Try the following queries by opening the URLs in your browser:
-[insert stuff here]
+Try the following queries by opening the URLs in your browser (you'll need to paste in the API key at the very end):
+* All sources being juiced - http://data.test.bbc.co.uk/bbcrd-juicer/sources?apikey=
+* Scope to only BBC content - http://data.test.bbc.co.uk/bbcrd-juicer/articles?sources[]=1&apikey=
+* Search for the word "London" in all BBC sources - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&apikey=
+* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron" - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&apikey=
+* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron", and show results in reverse chronological order - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&recent_first=true&apikey=
+* An article from the Juicer - http://data.test.bbc.co.uk/bbcrd-juicer/articles/4c3cfc0b24ba06bd204c6a24bd14e43bb006b0ea?apikey=
 
+ 
 # Getting a response
 After you've sent your query, the server will reply in a certain format. One of the most common is JSON (which stands for *JavaScript Obect Notation*). This format is very standard and easy to parse in any language, and though it can be a bit bigger than flat CSV datasets, it is quite good at expressing relationships and hierarchy. JSON is also the format returned by the Juicer, and thus the one that we will use for this tutorial.
 
