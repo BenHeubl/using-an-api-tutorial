@@ -35,14 +35,16 @@ Now, it might seem all a bit silly and broad, but you can use these APIs for qui
 # Making requests
 In order to fetch or push data using an API, we must send a request. This will usually take the form of a URL, including a query and an API key.
 
+**The API key for this event is `YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi`.**
+
 ### Example queries
 Try the following queries by opening the URLs in your browser (you'll need to paste in the API key at the very end):
-* All sources being juiced - http://data.test.bbc.co.uk/bbcrd-juicer/sources?apikey=
-* Scope to only BBC content - http://data.test.bbc.co.uk/bbcrd-juicer/articles?sources[]=1&apikey=
-* Search for the word "London" in all BBC sources - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&apikey=
-* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron" - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&apikey=
-* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron", and show results in reverse chronological order - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&recent_first=true&apikey=
-* An article from the Juicer - http://data.test.bbc.co.uk/bbcrd-juicer/articles/4c3cfc0b24ba06bd204c6a24bd14e43bb006b0ea?apikey=
+* All sources being juiced - http://data.test.bbc.co.uk/bbcrd-juicer/sources?apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
+* Scope to only BBC content - http://data.test.bbc.co.uk/bbcrd-juicer/articles?sources[]=1&apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
+* Search for the word "London" in all BBC sources - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
+* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron" - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
+* Search for the word "London" in all BBC sources, faceted (filtered) by the concept "David Cameron", and show results in reverse chronological order - http://data.test.bbc.co.uk/bbcrd-juicer/articles?q=London&sources[]=1&facets[]=http://dbpedia.org/resource/David_Cameron&recent_first=true&apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
+* An article from the Juicer - http://data.test.bbc.co.uk/bbcrd-juicer/articles/4c3cfc0b24ba06bd204c6a24bd14e43bb006b0ea?apikey=YB0MY3VMHyllzPqEf5alVj5bUvGpvDVi
 
  
 # Getting a response
